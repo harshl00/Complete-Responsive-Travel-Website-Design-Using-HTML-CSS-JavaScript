@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Bali Trip! 🌴✈️</title>
+    <style>
+        /* Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Lobster&display=swap');
+
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1E90FF);
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background:skyblue;
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+            font-family: 'Lobster', cursive;
+            letter-spacing: 2px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Itinerary Container */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Itinerary Items */
+        .day {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-size: 18px;
+            font-weight: 600;
+            background: #ffe4c4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.3s;
+        }
+
+        .day:hover {
+            transform: scale(1.05);
+            background: #ffddc1;
+        }
+
+        .icon {
+            font-size: 22px;
+        }
+
+        /* Button */
+        .btn {
+            padding: 12px 25px;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            background: #ff6363;
+            border: none;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            background: #e63946;
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background:skyblue;
+            color: white;
+            font-size: 16px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>✈️ GOA Adventure Awaits! 🌴</header>
+
+    <div class="container">
+        <h2>🌞 Day 1: Arrival & Beach Vibes</h2>
+        <div class="day">
+            <span>Welcome to paradise! Check-in & relax at Seminyak Beach 🏖️</span>
+            <span class="icon">🌊</span>
+        </div>
+
+        <h2>🦧 Day 2: Ubud Exploration</h2>
+        <div class="day">
+            <span>Monkey Forest, Rice Terraces & Balinese Culture! 🍃</span>
+            <span class="icon">🐒</span>
+        </div>
+
+        <h2>🏝️ Day 3: Island Hopping</h2>
+        <div class="day">
+            <span>Snorkeling in Nusa Penida & hidden beaches 🚤</span>
+            <span class="icon">🐠</span>
+        </div>
+
+        <h2>🌅 Day 4: Magical Sunset Temples</h2>
+        <div class="day">
+            <span>Visit Tanah Lot & Uluwatu Cliff Temple 🌄</span>
+            <span class="icon">🏯</span>
+        </div>
+
+        <h2>🛍️ Day 5: Shop & Fly Home</h2>
+        <div class="day">
+            <span>Last-minute shopping & airport transfer 🎁</span>
+            <span class="icon">🛫</span>
+        </div>
+
+        <button class="btn" onclick="bookNow()">Book My Trip! 🚀</button>
+    </div>
+
+    <footer>🌍 Travel More, Worry Less | 2025 ✨</footer>
+
+    <script>
+        function bookNow() {
+            alert("🌴 Bali trip confirmed! Pack your bags!");
+        }
+    </script>
+
+</body>
+</html>
