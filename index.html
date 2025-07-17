@@ -403,26 +403,27 @@
 
     <h1 class="heading"> <span>contact</span> us </h1>
 
-    <form action="" data-aos="zoom">
+    <form action="https://formspree.io/f/mzzvzzbq" method="POST" data-aos="zoom">
 
         <div class="inputBox">
-            <input type="text" placeholder="name" data-aos="fade-up">
-            <input type="email" placeholder="email" data-aos="fade-up">
+            <input type="text" name="name" placeholder="name" data-aos="fade-up" required>
+            
+            <input type="email" name="email" placeholder="email" data-aos="fade-up" required>
         </div>
 
         <div class="inputBox">
-            <input type="number" placeholder="number" data-aos="fade-up">
-            <input type="text" placeholder="subject" data-aos="fade-up">
+            <input type="number" name="number" placeholder="number" data-aos="fade-up">
+
+            <input type="text" name="subject" placeholder="subject" data-aos="fade-up" required>
         </div>
 
-        <textarea name="" placeholder="your message" id="" cols="30" rows="10" data-aos="fade-up"></textarea>
+        <textarea name="message" placeholder="your message" id="" cols="30" rows="10" data-aos="fade-up" required></textarea>
         
         <input type="submit" value="send message" class="btn">
 
     </form>
 
 </section>
-
 <!-- contact section ends -->
 
 <!-- blog section starts  -->
